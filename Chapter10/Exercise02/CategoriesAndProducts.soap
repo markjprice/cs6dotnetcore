@@ -1,0 +1,49 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Category[8]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+<item href="#ref-8"/>
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+</SOAP-ENC:Array>
+<a1:Category id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CategoryID_x003E_k__BackingField>1</_x003C_CategoryID_x003E_k__BackingField>
+<_x003C_CategoryName_x003E_k__BackingField id="ref-12">Beverages</_x003C_CategoryName_x003E_k__BackingField>
+<_x003C_Description_x003E_k__BackingField id="ref-13">Soft drinks, coffees, teas, beers, and ales</_x003C_Description_x003E_k__BackingField>
+<_x003C_Products_x003E_k__BackingField href="#ref-14"/>
+</a1:Category>
+<a1:Category id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CategoryID_x003E_k__BackingField>2</_x003C_CategoryID_x003E_k__BackingField>
+<_x003C_CategoryName_x003E_k__BackingField id="ref-15">Condiments</_x003C_CategoryName_x003E_k__BackingField>
+<_x003C_Description_x003E_k__BackingField id="ref-16">Sweet and savory sauces, relishes, spreads, and seasonings</_x003C_Description_x003E_k__BackingField>
+<_x003C_Products_x003E_k__BackingField href="#ref-17"/>
+</a1:Category>
+<a1:Category id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CategoryID_x003E_k__BackingField>3</_x003C_CategoryID_x003E_k__BackingField>
+<_x003C_CategoryName_x003E_k__BackingField id="ref-18">Confections</_x003C_CategoryName_x003E_k__BackingField>
+<_x003C_Description_x003E_k__BackingField id="ref-19">Desserts, candies, and sweet breads</_x003C_Description_x003E_k__BackingField>
+<_x003C_Products_x003E_k__BackingField href="#ref-20"/>
+</a1:Category>
+<a1:Category id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CategoryID_x003E_k__BackingField>4</_x003C_CategoryID_x003E_k__BackingField>
+<_x003C_CategoryName_x003E_k__BackingField id="ref-21">Dairy Products</_x003C_CategoryName_x003E_k__BackingField>
+<_x003C_Description_x003E_k__BackingField id="ref-22">Cheeses</_x003C_Description_x003E_k__BackingField>
+<_x003C_Products_x003E_k__BackingField href="#ref-23"/>
+</a1:Category>
+<a1:Category id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CategoryID_x003E_k__BackingField>5</_x003C_CategoryID_x003E_k__BackingField>
+<_x003C_CategoryName_x003E_k__BackingField id="ref-24">Grains/Cereals</_x003C_CategoryName_x003E_k__BackingField>
+<_x003C_Description_x003E_k__BackingField id="ref-25">Breads, crackers, pasta, and cereal</_x003C_Description_x003E_k__BackingField>
+<_x003C_Products_x003E_k__BackingField href="#ref-26"/>
+</a1:Category>
+<a1:Category id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_CategoryID_x003E_k__BackingField>6</_x003C_CategoryID_x003E_k__BackingField>
+<_x003C_CategoryName_x003E_k__BackingField id="ref-27">Meat/Poultry</_x003C_CategoryName_x003E_k__BackingField>
+<_x003C_Description_x003E_k__BackingField id="ref-28">Prepared meats</_x003C_Description_x003E_k__BackingField>
+<_x003C_Products_x003E_k__BackingField href="#ref-29"/>
+</a1:Category>
+<a1:Category id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Ch10_Exercise03/Ch10_Exercise03%2C%20Version%3D1.0.0.0%2C%20Culture%3Dne

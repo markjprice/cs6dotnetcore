@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch12_Tasks", "Ch12_Tasks\Ch12_Tasks.csproj", "{1366EEF3-509E-41A4-BDB8-DC4A9469662C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch12_NestedAndChildTasks", "Ch12_NestedAndChildTasks\Ch12_NestedAndChildTasks.csproj", "{165162E4-DE43-4EFF-9F42-D8AB6801BEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch12_GUITasks", "Ch12_GUITasks\Ch12_GUITasks.csproj", "{7AD4C304-BF82-48A0-ACB1-B2525A87F335}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1366EEF3-509E-41A4-BDB8-DC4A9469662C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1366EEF3-509E-41A4-BDB8-DC4A9469662C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1366EEF3-509E-41A4-BDB8-DC4A9469662C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1366EEF3-509E-41A4-BDB8-DC4A9469662C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165162E4-DE43-4EFF-9F42-D8AB6801BEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165162E4-DE43-4EFF-9F42-D8AB6801BEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165162E4-DE43-4EFF-9F42-D8AB6801BEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165162E4-DE43-4EFF-9F42-D8AB6801BEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD4C304-BF82-48A0-ACB1-B2525A87F335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD4C304-BF82-48A0-ACB1-B2525A87F335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD4C304-BF82-48A0-ACB1-B2525A87F335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD4C304-BF82-48A0-ACB1-B2525A87F335}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

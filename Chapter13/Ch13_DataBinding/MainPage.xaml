@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Ch13_DataBinding.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ch13_DataBinding"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loading="Page_Loading">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListBox ItemsSource="{Binding Employees}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox Text="{Binding EmployeeID}" />
+                        <TextBox Text="{Binding FirstName}" />
+                        <TextBox Text="{Binding LastName}" />
+                        <DatePicker Date="{Binding DOB}" />
+                        <TextBox Text="{Binding Salary}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Page>

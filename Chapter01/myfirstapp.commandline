@@ -1,0 +1,5 @@
+cd C:\Code
+csc myfirstapp.cs
+dir
+myfirstapp
+ildasm myfirstapp.exe
