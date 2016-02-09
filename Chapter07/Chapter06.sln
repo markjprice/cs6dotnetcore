@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07_InheritanceApp", "Ch07
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07_Exercise02", "Ch07_Exercise02\Ch07_Exercise02.csproj", "{A8430DA0-2AF7-4054-835E-93DB0A8BD183}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07_ExtensionMethods", "Ch07_ExtensionMethods\Ch07_ExtensionMethods.csproj", "{5B3C637A-99A0-43BE-A3A7-A7B87B2036A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A8430DA0-2AF7-4054-835E-93DB0A8BD183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8430DA0-2AF7-4054-835E-93DB0A8BD183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8430DA0-2AF7-4054-835E-93DB0A8BD183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3C637A-99A0-43BE-A3A7-A7B87B2036A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3C637A-99A0-43BE-A3A7-A7B87B2036A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3C637A-99A0-43BE-A3A7-A7B87B2036A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3C637A-99A0-43BE-A3A7-A7B87B2036A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
