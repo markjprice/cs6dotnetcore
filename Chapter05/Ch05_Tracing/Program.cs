@@ -10,6 +10,13 @@ namespace Ch05_Tracing
             Debug.WriteLine("Debug says Hello C#!");
             Trace.WriteLine("Trace says Hello C#!");
 
+#if KERMIT
+            Trace.WriteLine("KERMIT is on!");
+#endif
+#if KERMIT && FOZZIE
+            Trace.WriteLine("KERMIT and FOZZIE are on!");
+#endif
+
             var ts = new TraceSwitch("PacktSwitch", "");
             Trace.WriteLineIf(ts.TraceError, "TraceError");
             Trace.WriteLineIf(ts.TraceWarning, "TraceWarning");
