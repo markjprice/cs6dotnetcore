@@ -19,6 +19,7 @@ namespace Ch09_Projection
                 .Select(product => new { product.ProductID, product.ProductName, product.UnitPrice });
 
             WriteLine(query.ToString());
+
             foreach (var item in query)
             {
                 WriteLine($"{item.ProductID}: {item.ProductName} costs {item.UnitPrice:$#,##0.00}");
