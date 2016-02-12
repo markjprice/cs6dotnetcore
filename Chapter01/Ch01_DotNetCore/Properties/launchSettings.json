@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ch01_DotNetCore": {
+      "commandName": "Ch01_DotNetCore",
+      "sdkVersion": "dnx-coreclr-win-x64.1.0.0-rc1-update1"
+    }
+  }
+}
