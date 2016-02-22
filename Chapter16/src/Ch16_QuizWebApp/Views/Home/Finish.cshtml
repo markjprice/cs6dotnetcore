@@ -1,0 +1,33 @@
+﻿@model Ch16_QuizWebApp.ViewModels.Home.FinishViewModel
+@{
+    ViewBag.Title = "Finish";
+}
+<div class="jumbotron">
+    <h2>Finish</h2>
+    <p>
+        You scored @Model.CorrectAnswers out of @Model.Quiz.Questions.Count
+    </p>
+</div>
+<div class="row">
+    <table class="table">
+        <tr>
+            <th>Question</th>
+            <th>Correct Answer</th>
+            <th>Your Answer</th>
+        </tr>
+        @for (int i = 0; i < Model.Quiz.Questions.Count; i++)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.Quiz.Questions.ToList()[i].QuestionText)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.Quiz.Questions.ToList()[i].CorrectAnswer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Model.Answers[i])
+                </td>
+            </tr>
+        }
+    </table>
+</div>

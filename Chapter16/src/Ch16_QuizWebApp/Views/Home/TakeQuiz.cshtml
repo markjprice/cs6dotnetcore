@@ -1,0 +1,12 @@
+﻿@model Packt.QuizWebApp.Quiz
+@{
+    ViewBag.Title = $"{Model.Title} Quiz";
+}
+<div class="jumbotron">
+    <h2>@Model.Title Quiz</h2>
+    <p>@Model.Description</p>
+    <p>This quiz has @Model.Questions.Count questions.</p>
+    <p>
+        <a class="btn btn-success" href="@Url.Action("Question", new { id = 1 })">Start &raquo;</a>
+    </p>
+</div>

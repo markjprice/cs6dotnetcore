@@ -1,0 +1,63 @@
+﻿@model Ch16_QuizWebApp.ViewModels.Home.QuestionViewModel
+@{
+    ViewBag.Title = "Question " + Model.Number;
+}
+<div class="jumbotron">
+    <h2>Question @Model.Number</h2>
+    <p>
+        @Model.Question.QuestionText
+    </p>
+    <form action="@Url.Action("Question", new { id = Model.Number })" method="post" class="form-inline">
+        <div class="row">
+            <div class="col-md-5 alert alert-info">
+                <input type="radio" class="radio radio-inline" name="answer" id="ARadio" value="A"
+                       @if (Model.Answer == "A") { @: checked="checked"
+                                                                                                           } />
+                <label for="ARadio">@Model.Question.AnswerA</label>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 alert alert-info">
+                <input type="radio" class="radio" name="answer" id="BRadio" value="B"
+                       @if (Model.Answer == "B") { @: checked="checked"
+                                                                                        } />
+                <label for="BRadio">@Model.Question.AnswerB</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 alert alert-info">
+                <input type="radio" class="radio" name="answer" id="CRadio" value="C"
+                       @if (Model.Answer == "C") { @: checked="checked"
+                                                                                                } />
+                <label for="CRadio">@Model.Question.AnswerC</label>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 alert alert-info">
+                <input type="radio" class="radio" name="answer" id="DRadio" value="D"
+                       @if (Model.Answer == "D") { @: checked="checked"
+                                                                                                                           } />
+                <label for="DRadio">@Model.Question.AnswerD</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <input name="submit" type="submit" value="End Quiz" class="btn btn-warning" />
+            </div>
+            <div class="col-md-4">
+                @if (Model.Number > 1)
+                {
+                    @:<input name="submit" type="submit" value="Previous" class="btn btn-default" />
+            }
+            </div>
+            <div class="col-md-4">
+                @if (Model.Number == Model.Total)
+                {
+                    @:<input name="submit" type="submit" value="Finish" class="btn btn-default" />
+            }
+                else
+                {
+                    @:<input name="submit" type="submit" value="Next" class="btn btn-success" />
+            }
+            </div>
+        </div>
+    </form>
+</div>
